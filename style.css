@@ -1,0 +1,69 @@
+body {
+    font-family: "Ariel", "Helvetica Neue", Helvetica, sans-serif;
+    color: #777;
+    background: #777;
+    width: 960px;
+    font-size: 18px;
+}
+
+header {
+    background: #ebebeb;
+    margin-top: 10px;
+    margin-right: 100px;
+    margin-bottom: 10px;
+    margin-left: 100px;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background:#ebebeb;
+    margin-right:100px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    padding: 20px;
+    text-align: center;
+
+}
+
+section {
+    background: #14ad3a;
+    float: left;
+    height: 225px;
+    margin-right: 10px;
+    margin-bottom: 20px;
+    margin-left: 100px;
+    width: 495px; /* don't change this number*/
+}
+
+aside {
+    background: #ebebeb;
+    float: right;
+    height: 225px;
+    margin-right: 100px;
+    width: 250px;
+}
+
+footer {
+    background: #0e0cb3;
+    clear: both;
+    margin-right: 100px;
+    margin-left: 100px;
+    overflow: auto;
+    padding: 20px;
+}
+
+article {
+    color: #ebebeb;
+    background: #777;
+}
+
+h1 {
+    color: #777;
+    background: #ebebeb'
+}
+
+p {
+    color: #777;
+    background: #ebebeb;
+}
