@@ -1,5 +1,5 @@
 body {
-    font-family: "Ariel", "Helvetica Neue", Helvetica, sans-serif;
+    font-family: "Arial", "Helvetica Neue", Helvetica, sans-serif;
     color: #777;
     background: #777;
     width: 960px;
@@ -8,7 +8,6 @@ body {
 
 header {
     background: #ebebeb;
-    margin-top: 10px;
     margin-right: 100px;
     margin-bottom: 10px;
     margin-left: 100px;
@@ -27,13 +26,13 @@ nav {
 }
 
 section {
-    background: #14ad3a;
+    background: #ebebeb;
     float: left;
     height: 225px;
     margin-right: 10px;
     margin-bottom: 20px;
     margin-left: 100px;
-    width: 495px; /* don't change this number*/
+    width: 495px;
 }
 
 aside {
@@ -45,25 +44,65 @@ aside {
 }
 
 footer {
-    background: #0e0cb3;
+    background: #ebebeb;
     clear: both;
     margin-right: 100px;
     margin-left: 100px;
     overflow: auto;
     padding: 20px;
+    margin-top: 20px;
+    text-align: center;
 }
 
 article {
     color: #ebebeb;
     background: #777;
+    position: relative;
+    margin-top: 25px;
+    margin-left: 10px;
+    width: 475px;
+    height: 145px;
 }
 
 h1 {
     color: #777;
-    background: #ebebeb'
+    background: #ebebeb;
+    text-align: center;
+    font-size: 18px;
 }
+
 
 p {
     color: #777;
     background: #ebebeb;
+    text-align: center;
+    font-size: 18px;
 }
+
+.box1 {
+    color: #ebebeb;
+    background: #ebebeb;
+    position: relative;
+        margin-left: 10px;
+    width: 450px;
+    height: 38px;
+}
+
+.box2 {
+    color: #ebebeb;
+    background: #ebebeb;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 10px;
+    width: 450px;
+    height: 38px;
+}
+
+.dark {
+    color: #ebebeb;
+    background: #777;
+    text-align: center;
+    font-size: 18px;
+    padding: 6px;
+}
+
